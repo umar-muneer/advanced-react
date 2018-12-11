@@ -6,7 +6,7 @@ const server = createServer();
 
 server.start({
     cors: {
-        credentials: false,
+        credentials: true,
         origin: process.env.FRONTEND_URL
     }
 }, deets => {
